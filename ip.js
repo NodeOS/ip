@@ -7,7 +7,8 @@ var args = process.argv;
 var ip = args[6];
 
 if(!ip) {
-  console.log('Please Enter an IP Address');
+  console.log('Usage:',args[1],'route add default via <ip>');
+//  console.log('Please Enter an IP Address');
   process.exit(2);
 }
 
